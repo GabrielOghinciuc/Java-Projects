@@ -1,0 +1,904 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class=" is-u2f-enabled">
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# object: http://ogp.me/ns/object# article: http://ogp.me/ns/article# profile: http://ogp.me/ns/profile#">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+    <meta name="viewport" content="width=1020">
+    
+    
+    <title>bertojk/Tic-Tac-Toe: This is my Human and Computer Interaction (HCI) Project in Java. In this project, I used Tic Tac Toe sample with some development to apply the principle of good user interface in HCI.</title>
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+    <meta property="fb:app_id" content="1401488693436528">
+
+      <meta content="https://avatars3.githubusercontent.com/u/12268182?v=3&amp;s=400" name="twitter:image:src" /><meta content="@github" name="twitter:site" /><meta content="summary" name="twitter:card" /><meta content="bertojk/Tic-Tac-Toe" name="twitter:title" /><meta content="Tic-Tac-Toe - This is my Human and Computer Interaction (HCI) Project in Java. In this project, I used Tic Tac Toe sample with some development to apply the principle of good user interface in HCI." name="twitter:description" />
+      <meta content="https://avatars3.githubusercontent.com/u/12268182?v=3&amp;s=400" property="og:image" /><meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="bertojk/Tic-Tac-Toe" property="og:title" /><meta content="https://github.com/bertojk/Tic-Tac-Toe" property="og:url" /><meta content="Tic-Tac-Toe - This is my Human and Computer Interaction (HCI) Project in Java. In this project, I used Tic Tac Toe sample with some development to apply the principle of good user interface in HCI." property="og:description" />
+      <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+    <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+    <link rel="assets" href="https://assets-cdn.github.com/">
+    
+    <meta name="pjax-timeout" content="1000">
+    
+
+    <meta name="msapplication-TileImage" content="/windows-tile.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="selected-link" value="repo_source" data-pjax-transient>
+
+    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+    <meta name="google-analytics" content="UA-3769691-2">
+
+<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="BC1A76B9:0601:7A01B89:56A727CA" name="octolytics-dimension-request_id" />
+<meta content="/&lt;user-name&gt;/&lt;repo-name&gt;" data-pjax-transient="true" name="analytics-location" />
+
+
+
+  <meta class="js-ga-set" name="dimension1" content="Logged Out">
+
+
+
+        <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+        <meta name="expected-hostname" content="github.com">
+
+      <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#4078c0">
+      <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
+
+    <meta content="71c26084128a88f2a490ab3f69384660f51fe8ba" name="form-nonce" />
+
+    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github-0aa9cf6e491e3dfa1a86f66fea26ac404c7841ee70f5ad341e09a94e8a8c3c97.css" media="all" rel="stylesheet" />
+    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github2-366b47f24d7a39bc136a2db75f3368b4d97c6867d3e6a2316c9c43db05952764.css" media="all" rel="stylesheet" />
+    
+    
+
+
+    <meta http-equiv="x-pjax-version" content="3790ca1d6bed8ac70a1b6c2e12f67b46">
+
+      
+  <meta name="description" content="Tic-Tac-Toe - This is my Human and Computer Interaction (HCI) Project in Java. In this project, I used Tic Tac Toe sample with some development to apply the principle of good user interface in HCI.">
+  <meta name="go-import" content="github.com/bertojk/Tic-Tac-Toe git https://github.com/bertojk/Tic-Tac-Toe.git">
+
+  <meta content="12268182" name="octolytics-dimension-user_id" /><meta content="bertojk" name="octolytics-dimension-user_login" /><meta content="46224316" name="octolytics-dimension-repository_id" /><meta content="bertojk/Tic-Tac-Toe" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="46224316" name="octolytics-dimension-repository_network_root_id" /><meta content="bertojk/Tic-Tac-Toe" name="octolytics-dimension-repository_network_root_nwo" />
+  <link href="https://github.com/bertojk/Tic-Tac-Toe/commits/master.atom" rel="alternate" title="Recent Commits to Tic-Tac-Toe:master" type="application/atom+xml">
+
+
+      <link rel="canonical" href="https://github.com/bertojk/Tic-Tac-Toe" data-pjax-transient>
+  </head>
+
+
+  <body class="logged_out   env-production windows vis-public">
+    <a href="#start-of-content" tabindex="1" class="accessibility-aid js-skip-to-content">Skip to content</a>
+
+    
+    
+    
+
+
+
+      
+      <div class="header header-logged-out" role="banner">
+  <div class="container clearfix">
+
+    <a class="header-logo-wordmark" href="https://github.com/" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+      <span aria-hidden="true" class="mega-octicon octicon-logo-github"></span>
+    </a>
+
+    <div class="header-actions" role="navigation">
+        <a class="btn btn-primary" href="/join?source=header" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
+      <a class="btn" href="/login?return_to=%2Fbertojk%2FTic-Tac-Toe" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+    </div>
+
+    <div class="site-search repo-scope js-site-search" role="search">
+      <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/bertojk/Tic-Tac-Toe/search" class="js-site-search-form" data-global-search-url="/search" data-repo-search-url="/bertojk/Tic-Tac-Toe/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+  <label class="js-chromeless-input-container form-control">
+    <div class="scope-badge">This repository</div>
+    <input type="text"
+      class="js-site-search-focus js-site-search-field is-clearable chromeless-input"
+      data-hotkey="s"
+      name="q"
+      placeholder="Search"
+      aria-label="Search this repository"
+      data-global-scope-placeholder="Search GitHub"
+      data-repo-scope-placeholder="Search"
+      tabindex="1"
+      autocapitalize="off">
+  </label>
+</form>
+    </div>
+
+      <ul class="header-nav left" role="navigation">
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="/explore" data-ga-click="(Logged out) Header, go to explore, text:explore">Explore</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="/features" data-ga-click="(Logged out) Header, go to features, text:features">Features</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="https://enterprise.github.com/" data-ga-click="(Logged out) Header, go to enterprise, text:enterprise">Enterprise</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="/pricing" data-ga-click="(Logged out) Header, go to pricing, text:pricing">Pricing</a>
+          </li>
+      </ul>
+
+  </div>
+</div>
+
+
+
+    <div id="start-of-content" class="accessibility-aid"></div>
+
+      <div id="js-flash-container">
+</div>
+
+
+    <div role="main" class="main-content">
+        <div itemscope itemtype="http://schema.org/WebPage">
+    <div id="js-repo-pjax-container" class="context-loader-container js-repo-nav-next" data-pjax-container>
+      
+<div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav">
+  <div class="container repohead-details-container">
+
+    
+
+<ul class="pagehead-actions">
+
+  <li>
+      <a href="/login?return_to=%2Fbertojk%2FTic-Tac-Toe"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to watch a repository" rel="nofollow">
+    <span aria-hidden="true" class="octicon octicon-eye"></span>
+    Watch
+  </a>
+  <a class="social-count" href="/bertojk/Tic-Tac-Toe/watchers">
+    1
+  </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fbertojk%2FTic-Tac-Toe"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <span aria-hidden="true" class="octicon octicon-star"></span>
+    Star
+  </a>
+
+    <a class="social-count js-social-count" href="/bertojk/Tic-Tac-Toe/stargazers">
+      0
+    </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fbertojk%2FTic-Tac-Toe"
+        class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <span aria-hidden="true" class="octicon octicon-repo-forked"></span>
+        Fork
+      </a>
+
+    <a href="/bertojk/Tic-Tac-Toe/network" class="social-count">
+      0
+    </a>
+  </li>
+</ul>
+
+    <h1 itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="entry-title public ">
+  <span aria-hidden="true" class="octicon octicon-repo"></span>
+  <span class="author"><a href="/bertojk" class="url fn" itemprop="url" rel="author"><span itemprop="title">bertojk</span></a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong><a href="/bertojk/Tic-Tac-Toe" data-pjax="#js-repo-pjax-container">Tic-Tac-Toe</a></strong>
+
+  <span class="page-context-loader">
+    <img alt="" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+  </span>
+
+</h1>
+
+  </div>
+  <div class="container">
+    
+<nav class="reponav js-repo-nav js-sidenav-container-pjax js-octicon-loaders"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container">
+
+  <a href="/bertojk/Tic-Tac-Toe" aria-label="Code" aria-selected="true" class="js-selected-navigation-item selected reponav-item" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches /bertojk/Tic-Tac-Toe">
+    <span aria-hidden="true" class="octicon octicon-code"></span>
+    Code
+</a>
+    <a href="/bertojk/Tic-Tac-Toe/issues" class="js-selected-navigation-item reponav-item" data-hotkey="g i" data-selected-links="repo_issues repo_labels repo_milestones /bertojk/Tic-Tac-Toe/issues">
+      <span aria-hidden="true" class="octicon octicon-issue-opened"></span>
+      Issues
+      <span class="counter">0</span>
+</a>
+  <a href="/bertojk/Tic-Tac-Toe/pulls" class="js-selected-navigation-item reponav-item" data-hotkey="g p" data-selected-links="repo_pulls /bertojk/Tic-Tac-Toe/pulls">
+    <span aria-hidden="true" class="octicon octicon-git-pull-request"></span>
+    Pull requests
+    <span class="counter">0</span>
+</a>
+
+  <a href="/bertojk/Tic-Tac-Toe/pulse" class="js-selected-navigation-item reponav-item" data-selected-links="pulse /bertojk/Tic-Tac-Toe/pulse">
+    <span aria-hidden="true" class="octicon octicon-pulse"></span>
+    Pulse
+</a>
+  <a href="/bertojk/Tic-Tac-Toe/graphs" class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors /bertojk/Tic-Tac-Toe/graphs">
+    <span aria-hidden="true" class="octicon octicon-graph"></span>
+    Graphs
+</a>
+
+</nav>
+
+  </div>
+</div>
+
+<div class="container new-discussion-timeline experiment-repo-nav">
+  <div class="repository-content">
+
+    
+<div class="repository-meta js-details-container">
+  <span class="repository-meta-content">
+        This is my Human and Computer Interaction (HCI) Project in Java. In this project, I used Tic Tac Toe sample with some development to apply the principle of good user interface in HCI.
+  </span>
+
+</div>
+
+
+<div class="overall-summary overall-summary-bottomless">
+
+  <div class="stats-switcher-viewport js-stats-switcher-viewport">
+    <div class="stats-switcher-wrapper">
+    <ul class="numbers-summary">
+      <li class="commits">
+        <a data-pjax href="/bertojk/Tic-Tac-Toe/commits/master">
+            <span aria-hidden="true" class="octicon octicon-history"></span>
+            <span class="num text-emphasized">
+              2
+            </span>
+            commits
+        </a>
+      </li>
+      <li>
+        <a data-pjax href="/bertojk/Tic-Tac-Toe/branches">
+          <span aria-hidden="true" class="octicon octicon-git-branch"></span>
+          <span class="num text-emphasized">
+            1
+          </span>
+          branch
+        </a>
+      </li>
+
+      <li>
+        <a data-pjax href="/bertojk/Tic-Tac-Toe/releases">
+          <span aria-hidden="true" class="octicon octicon-tag"></span>
+          <span class="num text-emphasized">
+            0
+          </span>
+          releases
+        </a>
+      </li>
+
+      <li>
+          <include-fragment src="/bertojk/Tic-Tac-Toe/contributors_size">
+            <a href="/bertojk/Tic-Tac-Toe/graphs/contributors">
+              <span aria-hidden="true" class="octicon octicon-organization"></span>
+              <span class="num text-emphasized"></span>
+              Fetching contributors
+            </a>
+</include-fragment>      </li>
+    </ul>
+
+      <div class="repository-lang-stats">
+        <ol class="repository-lang-stats-numbers">
+          <li>
+              <a href="/bertojk/Tic-Tac-Toe/search?l=java"  data-ga-click="Language bar, click, language search">
+                <span class="color-block language-color" style="background-color:#b07219;"></span>
+                <span class="lang">Java</span>
+                <span class="percent">100.0%</span>
+              </a>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+  <div class="repository-lang-stats-graph js-toggle-lang-stats" title="Click for language details" data-ga-click="Language bar, click, language stats toggle">
+    <span class="language-color" aria-label="Java 100.0%" style="width:100.0%; background-color:#b07219;" itemprop="keywords">Java</span>
+  </div>
+
+<include-fragment src="/bertojk/Tic-Tac-Toe/show_partial?partial=tree%2Frecently_touched_branches_list"></include-fragment>
+
+<div class="file-navigation in-mid-page file-navigation-new">
+  <div class="right">
+    <div class="btn-group">
+      
+  <button class="btn btn-sm disabled tooltipped tooltipped-n" aria-label="You must be signed in to make or propose changes" type="button">
+    New file
+  </button>
+
+
+
+      <a href="/bertojk/Tic-Tac-Toe/find/master"
+        class="btn btn-sm empty-icon right js-show-file-finder"
+        data-pjax
+        data-hotkey="t"
+        data-ga-click="Repository, find file, location:repo overview">
+        Find file
+      </a>
+    </div>
+      <div class="file-navigation-options" data-multiple>
+
+        <div class="file-navigation-option">
+          <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/users/set_protocol" class="js-set-user-protocol-preference" data-form-nonce="71c26084128a88f2a490ab3f69384660f51fe8ba" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="6+MXvqtJ6F/o4vQdPvLKCl4kEpMYJQ4/VIGLVm9LA+0Z5ya9rRdOtTGKG0XuWqI9+nA60K4FKhIVKs2o1Gr5TQ==" /></div>
+            <input type="hidden" name="protocol_type" value="clone">
+
+            <div class="select-menu js-menu-container js-select-menu">
+              <div class="input-group js-select-button js-zeroclipboard-container">
+                <div class="input-group-button">
+  <button type="button" class="btn btn-sm select-menu-button js-menu-target" data-ga-click="Repository, clone HTTPS, location:repo overview">
+    HTTPS
+  </button>
+</div>
+<input type="text" class="input-monospace input-mini js-zeroclipboard-target js-url-field" value="https://github.com/bertojk/Tic-Tac-Toe.git" readonly>
+<div class="input-group-button">
+  <button aria-label="Copy to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button"><span aria-hidden="true" class="octicon octicon-clippy"></span></button>
+</div>
+
+              </div>
+
+              <div class="select-menu-modal-holder">
+                <div class="select-menu-modal js-menu-content" aria-hidden="true">
+                  <div class="select-menu-header">
+                    <span aria-label="Close" class="octicon octicon-x js-menu-close" role="button"></span>
+                    <span class="select-menu-title">Choose a clone URL</span>
+                  </div>
+
+                  <div class="select-menu-list js-navigation-container" role="menu">
+                      <div class="select-menu-item js-navigation-item selected" role="menuitem" tabindex="0">
+                        <span aria-hidden="true" class="octicon octicon-check select-menu-item-icon"></span>
+                        <div class="select-menu-item-text">
+                          <input type="radio" name="protocol_selector" value="http" checked>
+                          <span class="select-menu-item-heading">
+                            HTTPS
+                            (recommended)
+                          </span>
+                            <span class="description">
+                              Clone with Git or checkout with SVN using the repository's web address.
+                            </span>
+                          <span class="js-select-button-text hidden-select-button-text">
+                            <div class="input-group-button">
+  <button type="button" class="btn btn-sm select-menu-button js-menu-target" data-ga-click="Repository, clone HTTPS, location:repo overview">
+    HTTPS
+  </button>
+</div>
+<input type="text" class="input-monospace input-mini js-zeroclipboard-target js-url-field" value="https://github.com/bertojk/Tic-Tac-Toe.git" readonly>
+<div class="input-group-button">
+  <button aria-label="Copy to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button"><span aria-hidden="true" class="octicon octicon-clippy"></span></button>
+</div>
+
+                          </span>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="select-menu-list" role="menu">
+                    <a class="select-menu-item select-menu-action" href="https://help.github.com/articles/which-remote-url-should-i-use" target="_blank">
+                      <span aria-hidden="true" class="octicon octicon-question select-menu-item-icon"></span>
+                      <div class="select-menu-item-text">
+                        Learn more about clone URLs
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+</form>        </div>
+
+        <div class="file-navigation-option">
+    <a href="https://windows.github.com" class="btn btn-sm tooltipped tooltipped-s tooltipped-multiline" aria-label="Save bertojk/Tic-Tac-Toe to your computer and use it in GitHub Desktop.">
+      <span aria-hidden="true" class="octicon octicon-desktop-download"></span>
+    </a>
+</div>
+
+
+        <div class="file-navigation-option">
+          <a href="/bertojk/Tic-Tac-Toe/archive/master.zip"
+             class="btn btn-sm"
+             rel="nofollow"
+             data-ga-click="Repository, download zip, location:repo overview">
+            Download ZIP
+          </a>
+        </div>
+      </div>
+  </div>
+
+  
+<div class="select-menu js-menu-container js-select-menu left">
+  <button class="btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    title="master"
+    type="button" aria-label="Switch branches or tags" tabindex="0" aria-haspopup="true">
+    <i>Branch:</i>
+    <span class="js-select-button css-truncate-target">master</span>
+  </button>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax aria-hidden="true">
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <span aria-label="Close" class="octicon octicon-x js-menu-close" role="button"></span>
+        <span class="select-menu-title">Switch branches/tags</span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab" role="tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab" role="tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches" role="menu">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open selected"
+               href="/bertojk/Tic-Tac-Toe/tree/master"
+               data-name="master"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span aria-hidden="true" class="octicon octicon-check select-menu-item-icon"></span>
+              <span class="select-menu-item-text css-truncate-target" title="master">
+                master
+              </span>
+            </a>
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+    <a href="/bertojk/Tic-Tac-Toe/pull/new/master" class="btn btn-sm btn-primary" data-pjax data-ga-click="Repository, new pull request, location:repo overview">
+      New pull request
+    </a>
+
+  <div class="breadcrumb">
+    
+  </div>
+</div>
+
+
+
+<include-fragment class="commit-tease commit-loader" src="/bertojk/Tic-Tac-Toe/tree-commit/ef13cf1daa68bb2bc124adb39d69042a62bea4ac">
+  <div class="blank">
+    <img alt="" class="loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32-EAF2F5.gif" width="16" />
+    Fetching latest commit…
+  </div>
+  <div class="loader-error">
+    Cannot retrieve the latest commit at this time.
+  </div>
+</include-fragment>
+
+<include-fragment class="file-wrap" src="/bertojk/Tic-Tac-Toe/file-list/master">
+
+  <a href="/bertojk/Tic-Tac-Toe/tree/ef13cf1daa68bb2bc124adb39d69042a62bea4ac" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
+
+  <table class="files js-navigation-container js-active-navigation-container" data-pjax>
+
+
+    <tbody>
+      <tr class="warning include-fragment-error">
+        <td class="icon"><span aria-hidden="true" class="octicon octicon-alert"></span></td>
+        <td class="content" colspan="3">Failed to load latest commit information.</td>
+      </tr>
+
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <span aria-hidden="true" class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/bertojk/Tic-Tac-Toe/blob/master/MainFrame.java" class="js-directory-link js-navigation-open" id="ec0083025dbc2469180bed270adf2a2a-02c20d608ea2b6ac6c65750cd162b6e2ba0d90b8" title="MainFrame.java">MainFrame.java</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <span aria-hidden="true" class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/bertojk/Tic-Tac-Toe/blob/master/O.png" class="js-directory-link js-navigation-open" id="09fb561acc759be8aefc40bba3910158-eba420368419fc5a5a230dd786593378f743329d" title="O.png">O.png</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <span aria-hidden="true" class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/bertojk/Tic-Tac-Toe/blob/master/Setting.java" class="js-directory-link js-navigation-open" id="54a3962b4f21a3e3aeb5df9a4159c1a4-c054d606b10e7ce55ff28f8fa27d3d14b4e43c75" title="Setting.java">Setting.java</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <span aria-hidden="true" class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/bertojk/Tic-Tac-Toe/blob/master/SoundPlayer.java" class="js-directory-link js-navigation-open" id="e3fdd675f54a7262cbd0734bffcd661c-1a33b3587b774139c06dd5d62ccdede2041c2edb" title="SoundPlayer.java">SoundPlayer.java</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <span aria-hidden="true" class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/bertojk/Tic-Tac-Toe/blob/master/Thumbs.db" class="js-directory-link js-navigation-open" id="3420d63b3e8d573c9abcfcdc6c521f91-f39af56486198db287b58c2da718c8aee4293816" title="Thumbs.db">Thumbs.db</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <span aria-hidden="true" class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/bertojk/Tic-Tac-Toe/blob/master/TicTacToe.java" class="js-directory-link js-navigation-open" id="9b0ad82443cd45afdb7526ea402a92b6-b212eaf08e3c2084e1277c4c401e5f6fb4a7cec0" title="TicTacToe.java">TicTacToe.java</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <span aria-hidden="true" class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/bertojk/Tic-Tac-Toe/blob/master/X.png" class="js-directory-link js-navigation-open" id="a540f460b537bdd7f4b5761167d42273-0dd6177dc941d7c621c6ef3823b6c06f6cecb039" title="X.png">X.png</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <span aria-hidden="true" class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/bertojk/Tic-Tac-Toe/blob/master/XOButton.java" class="js-directory-link js-navigation-open" id="f4c5306f5b8777a557ece44d0c80b737-ff7fb4eaaaa21cd3896bf044ebd9da06ec479004" title="XOButton.java">XOButton.java</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <span aria-hidden="true" class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/bertojk/Tic-Tac-Toe/blob/master/click_tune.wav" class="js-directory-link js-navigation-open" id="4706c682df074ca6ff2e583ff20133ef-c903d900d099fa512d1a93ea42842da2f9254238" title="click_tune.wav">click_tune.wav</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <span aria-hidden="true" class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/bertojk/Tic-Tac-Toe/blob/master/draw_tune.wav" class="js-directory-link js-navigation-open" id="cc961716b768ca949713848b1c833be9-66301424ee98cc2b77f269409775ea6af3a3d713" title="draw_tune.wav">draw_tune.wav</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <span aria-hidden="true" class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/bertojk/Tic-Tac-Toe/blob/master/exit.png" class="js-directory-link js-navigation-open" id="ca8a52904ddd4f2a403e8ac93df09fe5-af16b23250b96e53843a11af38baf63d20552af2" title="exit.png">exit.png</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <span aria-hidden="true" class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/bertojk/Tic-Tac-Toe/blob/master/help.png" class="js-directory-link js-navigation-open" id="b0621ed4ad5ec4337b556a8fea14acf0-1cabc85de506e5e1e9213586c95d5f277d13c3a3" title="help.png">help.png</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <span aria-hidden="true" class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/bertojk/Tic-Tac-Toe/blob/master/help_tune.wav" class="js-directory-link js-navigation-open" id="67fbc098fd94ec725a43babf63052907-f3743aa4ad6097c301c4fb50cc1f4e3b3b35e382" title="help_tune.wav">help_tune.wav</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <span aria-hidden="true" class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/bertojk/Tic-Tac-Toe/blob/master/o_animated.gif" class="js-directory-link js-navigation-open" id="659db14fb501945f9d1e29f2e0a92827-0649678964e12b059befce43f191267d3751d4be" title="o_animated.gif">o_animated.gif</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <span aria-hidden="true" class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/bertojk/Tic-Tac-Toe/blob/master/reset.png" class="js-directory-link js-navigation-open" id="3142926842c0ce2841a53572bee19b59-6767dbdc7459111968abb7a14aab31f4340d1866" title="reset.png">reset.png</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <span aria-hidden="true" class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/bertojk/Tic-Tac-Toe/blob/master/trophy.png" class="js-directory-link js-navigation-open" id="0f0d0fd95624ae563c98504801ec3f1f-57a204e8d4f802284f59b2ff6f414c4b38ce498c" title="trophy.png">trophy.png</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <span aria-hidden="true" class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/bertojk/Tic-Tac-Toe/blob/master/winning_tune.wav" class="js-directory-link js-navigation-open" id="8e4507c2cc85f08746df014919cc53be-0601ee3322fdc649f9c6b8d3852fb0fa72da8184" title="winning_tune.wav">winning_tune.wav</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <span aria-hidden="true" class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/bertojk/Tic-Tac-Toe/blob/master/x_animated.gif" class="js-directory-link js-navigation-open" id="879659da7deab7e44d9cc136575d62b7-c9604dcde7cb5bc3ede132dddae4708a18c388dd" title="x_animated.gif">x_animated.gif</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"></span>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+</include-fragment>
+
+
+
+  
+
+
+  </div>
+  <div class="modal-backdrop"></div>
+</div>
+
+    </div>
+  </div>
+
+    </div>
+
+        <div class="container">
+  <div class="site-footer" role="contentinfo">
+    <ul class="site-footer-links right">
+        <li><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+      <li><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li><a href="https://github.com/blog" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a href="https://github.com/about" data-ga-click="Footer, go to about, text:about">About</a></li>
+        <li><a href="https://github.com/pricing" data-ga-click="Footer, go to pricing, text:pricing">Pricing</a></li>
+
+    </ul>
+
+    <a href="https://github.com" aria-label="Homepage">
+      <span aria-hidden="true" class="mega-octicon octicon-mark-github" title="GitHub "></span>
+</a>
+    <ul class="site-footer-links">
+      <li>&copy; 2016 <span title="0.13140s from github-fe137-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+        <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
+        <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
+        <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li><a href="https://github.com/contact" data-ga-click="Footer, go to contact, text:contact">Contact</a></li>
+        <li><a href="https://help.github.com" data-ga-click="Footer, go to help, text:help">Help</a></li>
+    </ul>
+  </div>
+</div>
+
+
+
+    
+    
+    
+
+    <div id="ajax-error-message" class="flash flash-error">
+      <span aria-hidden="true" class="octicon octicon-alert"></span>
+      <button type="button" class="flash-close js-flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+        <span aria-hidden="true" class="octicon octicon-x"></span>
+      </button>
+      Something went wrong with that request. Please try again.
+    </div>
+
+
+      
+      <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/frameworks-9ee55ceaf87fc34dc86334249fef6cbece88e815478e0fbe81642d57ed0fff89.js"></script>
+      <script async="async" crossorigin="anonymous" src="https://assets-cdn.github.com/assets/github-394e52ce754d3bfd2289c98e49302efbad2b1ddb5c40d88f0b4b68088f2a74cd.js"></script>
+      
+      
+      
+    <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner hidden">
+      <span aria-hidden="true" class="octicon octicon-alert"></span>
+      <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+      <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    </div>
+    <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
+      <span aria-hidden="true" class="octicon octicon-x"></span>
+    </button>
+  </div>
+</div>
+
+  </body>
+</html>
+
